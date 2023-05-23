@@ -1,0 +1,91 @@
+
+#tsparticles {
+  position: fixed;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  z-index: 1;
+}
+.home-container{
+    position: relative;
+    background-image:linear-gradient(
+        to bottom left,
+        rgba(17, 16, 16, 0.878),
+        rgba(12, 10, 22, 0.863)
+      ), url(../../assets/home-bg.jpg); 
+      background-position: top center center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 800px;
+      padding-bottom: 30px ;
+      padding-top: 30px ;
+      margin: auto;
+}
+
+.home-card{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  z-index: 1000;
+}
+/* animation */
+
+.wave {
+  animation-name: wave-animation; 
+  animation-duration: 2.1s; 
+  animation-iteration-count: infinite; 
+  transform-origin: 70% 70%; 
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } 
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } 
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.home-content{
+  position: relative;
+  
+}
+
+
+@media (max-width:968px) {
+  .home-container{
+    height: 1000px;
+  }
+  .home-img{
+   margin-top: 2rem;
+   width: 400px;
+  }
+  .home-content{
+    height: 200px;
+  }
+}
+
+@media (max-width:480px) {
+
+  .home-content{
+    
+  }
+}

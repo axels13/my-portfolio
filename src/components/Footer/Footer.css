@@ -1,0 +1,19 @@
+footer{
+    background-color: #0a0416;
+    height:auto;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:968px){
+  
+    .footer-content{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

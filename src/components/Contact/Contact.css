@@ -1,0 +1,17 @@
+.contact{
+    padding: 60px 0;
+}
+
+
+.border-icon{
+    border: 1.7px solid rgba(200,137,230,.637)!important;
+    border-radius: 50%!important;
+    box-shadow: 4px 5px 4px 3px rgba(89,4,168,.137)!important;
+    padding: 0.3rem;
+    
+}
+
+
+@media (max-width:640px){
+    
+}
